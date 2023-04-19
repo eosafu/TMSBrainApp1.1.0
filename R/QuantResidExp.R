@@ -12,7 +12,7 @@
 #'
 
 
-QuantResidexp <- function(INLAoutput,y){
+QuantResidExp <- function(INLAoutput,y){
 
   rate=output$summary.fitted.values$mean[1:length(y)]
   resid = qnorm(pexp(y,rate=rate))

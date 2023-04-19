@@ -12,7 +12,7 @@
 #' }
 #'
 
-QuantResid <-  function(INLAoutput,y,dist){
+QuantResidTMS <-  function(INLAoutput,y,dist){
   output = INLAoutput
 
   if(dist=="gaussian"){
