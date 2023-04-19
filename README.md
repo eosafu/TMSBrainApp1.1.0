@@ -31,7 +31,7 @@ or upgrade:
 ```
 		R > TMSapp.run()  
 ```
-
+ 
 Navigate through the interface by clicking on the appropriate tabs. One can as well choose to work on a web browser rather than the R shiny interface.  To do this: on the ``R`` shiny interface, click on "Open in Browser".
 
 A sample of TMS Brain data is available for practice.
