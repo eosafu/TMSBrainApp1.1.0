@@ -63,6 +63,7 @@ Rep <- (params[["Rep"]])
             aux = dados$output
             probb =  dados$probb
             hpd   = dados$hpd
+            MEP   =  dados$MEP
         if ( !is.null(aux)& is.null(probb)) {
             
             paste0('HPD [  Low = ',round(hpd[1],4),' High = ',round(hpd[2],4), '  ]')
