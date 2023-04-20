@@ -334,7 +334,7 @@ TMSapp.run <- function(...){
       )
     ),
     hr(),
-    HTML('<p style="text-align:center; color:gray; font-size:18px"><b>JOINT WORK</b><br> Osafu EGBON, Diego NASCIMENTO, Oilson GONZATTO, Francisco LOUZADA, Dylan EDWARDS, Onno van der GROEN. </p>'),
+    HTML('<p style="text-align:center; color:gray; font-size:18px"><b>JOINT WORK</b><br> Osafu EGBON, Dylan EDWARDS, Onno van der GROEN, Diego NASCIMENTO, Oilson GONZATTO, Francisco LOUZADA</p>'),
     useShinyalert()
   ))
 
@@ -860,7 +860,7 @@ TMSapp.run <- function(...){
       #
       dados$prd.m = prd.m.aux
       dados$output = output
-      dados$Resid = QuantResid(INLAoutput=output,y=testq$r,dist=input$dataModel)
+      dados$Resid = QuantResidTMS(INLAoutput=output,y=testq$r,dist=input$dataModel)
       #dados$Resid = output$summary.fitted.values$mean[1:length(testq$r)] - testq$r
       #
     })
@@ -1181,7 +1181,7 @@ TMSapp.run <- function(...){
       } else if( !is.null(dados$output)& !is.null(dados$probb) ){
         probb =  dados$probb
         valueBox(
-          subtitle = h5(HTML('MEP TAIL PROBABILITY')),
+          subtitle = h5(HTML('MEP Exceedance PROBABILITY')),
           value = tags$p(style = "font-size: 18px; font-weight: bold;",
                          HTML(paste0(round(probb ,4)))),
           color = 'light-blue',
