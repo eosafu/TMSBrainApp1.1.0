@@ -334,7 +334,7 @@ TMSapp.run <- function(...){
       )
     ),
     hr(),
-    HTML('<p style="text-align:center; color:gray; font-size:18px"><b>JOINT WORK</b><br> Osafu EGBON, Dylan EDWARDS, Onno van der GROEN, Diego NASCIMENTO, Oilson GONZATTO, Francisco LOUZADA</p>'),
+    HTML('<p style="text-align:center; color:gray; font-size:18px"><b>JOINT WORK</b><br> Osafu EGBON, Diego NASCIMENTO, Oilson GONZATTO, Francisco LOUZADA, Dylan EDWARDS, Onno van der GROEN. </p>'),
     useShinyalert()
   ))
 
