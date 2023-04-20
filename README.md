@@ -42,6 +42,6 @@ The ``TMSBrainApp1.1.0`` package contains well documented functions used interna
 ```
 to view the documentation for ``QuantResidTMS`` function.
 
-
+![function Summary](https://github.com/eosafu/TMSBrainApp/blob/main/Rsummary.png)
 
 ![Example analysis](https://raw.githubusercontent.com/eosafu/TMSBrainApp/main/TMSBrainApp1.1.0.png)
