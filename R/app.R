@@ -934,7 +934,7 @@ TMSapp.run <- function(...){
       #
       dados$output = output
       dados$prd.m = value.aux4
-      dados$Resid = QuantResid(INLAoutput=output,y=testq$r,dist=input$dataModel)
+      dados$Resid = QuantResidTMS(INLAoutput=output,y=testq$r,dist=input$dataModel)
       #dados$Resid = output$summary.fitted.values$mean[1:length(testq$r)] - testq$r
       #
 
@@ -1010,7 +1010,7 @@ TMSapp.run <- function(...){
       #
       dados$output = output
       dados$prd.m = value.aux4
-      dados$Resid = QuantResid(INLAoutput=output,y=testq$r,dist=input$dataModel)
+      dados$Resid = QuantResidTMS(INLAoutput=output,y=testq$r,dist=input$dataModel)
       #dados$Resid = output$summary.fitted.values$mean[1:length(testq$r)] - testq$r
       #
     })
@@ -1091,7 +1091,7 @@ TMSapp.run <- function(...){
       #
       dados$output = output
       dados$prd.m = value.aux4
-      dados$Resid = QuantResid(INLAoutput=output,y=testq$r,dist=input$dataModel)
+      dados$Resid = QuantResidTMS(INLAoutput=output,y=testq$r,dist=input$dataModel)
       #dados$Resid = output$summary.fitted.values$mean[1:length(testq$r)] - testq$r
       #
     })
