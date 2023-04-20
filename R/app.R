@@ -861,7 +861,7 @@ TMSapp.run <- function(...){
       dados$prd.m = prd.m.aux
       dados$output = output
       dados$Resid = QuantResidTMS(INLAoutput=output,y=testq$r,dist=input$dataModel)
-      #dados$Resid = output$summary.fitted.values$mean[1:length(testq$r)] - testq$r
+      #dados$Resid = output$summary.fitted.values$mean[1:length(testq$r)] - testq$r 
       #
     })
 
