@@ -1,7 +1,6 @@
 ## TMSBrainApp
-![LOGOS](https://user-images.githubusercontent.com/70357973/128624809-6b29adb1-57c9-42b8-baef-772caa73468a.jpg)
-TMSBrainApp is an ``R`` Package for TMS brain mapping, adopting a Bayesian spatial statistical modeling. The package contains a shiny user interface, where one could perform Brain mapping in ``R`` without writing codes.  
-
+![LOGOS](https://user-images.githubusercontent.com/70357973/128624809-6b29adb1-57c9-42b8-baef-772caa73468a.jpg) 
+``TMSBrainApp`` is an ``R`` Package that contains a user-friendly Shiny interface for analyzing Transcranial Magnetic Stimulation (TMS) mapping data. This interface allow user acess to an application that utilizes a Bayesian spatial statistical modeling technique, making it a powerful tool for performing brain mapping in ``R`` without the need for coding expertise. With TMSBrainApp, users can easily analyze brain activity data, making it an invaluable resource for researchers and clinicians.
 
 ### Package Installation Instruction
 Required tools
@@ -36,7 +35,7 @@ Navigate through the interface by clicking on the appropriate tabs. One can as w
 
 A sample of TMS Brain data is available for practice.
 
-The ``TMSBrainApp1.1.0`` package contains functions which are well documented. For example, use 
+The ``TMSBrainApp1.1.0`` package contains well documented functions used internally by the Shiny application, which are also made available for users. For example, use 
 
 ```
 		R > ?QuantResidTMS()
