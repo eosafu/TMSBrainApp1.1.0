@@ -8,7 +8,7 @@ Quantile residual
 Computes the quantile residual from INLA output object.
 }
 \usage{
-QuantResid(INLAoutput,y,dist)
+QuantResidTMS(INLAoutput,y,dist)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{

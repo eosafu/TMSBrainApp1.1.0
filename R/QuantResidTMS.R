@@ -8,7 +8,7 @@
 #' @keywords
 #' @examples
 #' \dontrun{
-#' QuantResid(INLAoutput,y,dist)
+#' QuantResidTMS(INLAoutput,y,dist)
 #' }
 #'
 
