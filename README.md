@@ -41,7 +41,13 @@ The ``TMSBrainApp1.1.0`` package contains well documented functions used interna
 		R > ?QuantResidTMS()
 ```
 to view the documentation for ``QuantResidTMS`` function.
+## Functions
+* For analyzing any spatial data
+* Make statistical inference and predictions based on Bayesian methods
+* Detect hotspots and provide the posterior distribution of the hotspot for post-modeling inference
+* Prepare summary report of analysis performed
 
+## Screenshot of its page on R
 ![function Summary](https://github.com/eosafu/TMSBrainApp/blob/main/Rsummary.png)
-
+## Screenshot of the App
 ![Example analysis](https://raw.githubusercontent.com/eosafu/TMSBrainApp/main/TMSBrainApp1.1.0.png)
