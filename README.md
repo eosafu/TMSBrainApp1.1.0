@@ -5,7 +5,7 @@
 ### Package Installation Instruction
 Required tools
 
-- Ensure that your machine has ``R`` (>=3.5.0) installed. Otherwise, download and install from https://cran.r-project.org/.  
+- Running the package requires a working R environment. Ensure that your machine has ``R`` (>=3.5.0) installed. Otherwise, download and install from https://cran.r-project.org/.  
 - For Windows users, please ensure that "Rtools" is installed. Otherwise, download from https://cran.r-project.org/bin/windows/Rtools/rtools40.html. 
 
 *Step 1*: Manually install ``INLA`` package (version 22.04.16 or more recent) from its repository (https://www.r-inla.org/download-install): 
