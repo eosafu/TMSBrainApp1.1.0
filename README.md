@@ -19,11 +19,10 @@ or upgrade:
 *Step 2*: On ``R`` interface, install "devtools" package from CRAN repository:  
 ```
 		R > install.packages("devtools")  
-		R > library("devtools") 
 ```
 *Step 3*: Intall ``TMSBrainApp`` package from Github repository:  
 ```
-		R > install_github("eosafu/TMSBrainApp1.1.0")  
+		R > devtools::install_github("eosafu/TMSBrainApp1.1.0")  
 		R > library(TMSBrainApp) 
 ```
 *Step 4*: Execute the TMSBrainApp application:  
